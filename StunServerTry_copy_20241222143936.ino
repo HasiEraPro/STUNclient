@@ -1,8 +1,11 @@
 #include <WiFi.h>
 #include "STUNClient.h"
+//please comment the following line when you using this code
+#include "credentials.h"
 
-const char* ssid = "your ssid here";
-const char* password = "your password here";
+//uncomment the following 2 lines and add your wifi ssid and password details
+//const char* ssid = "your ssid here";
+//const char* password = "your password here";
 
 STUNClient stunClient;
 
